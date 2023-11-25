@@ -20,7 +20,7 @@ print(y)
 y=0
 txt = "So hien tai {}, So truoc do {}, Tong hai so {}"
 for x in range(10):
-    y = x - 1
+    y = x + 1
     z = x + y
 print(txt.format(len(x), len(y), z))
  
